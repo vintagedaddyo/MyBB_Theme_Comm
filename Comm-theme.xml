@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<theme name="Comm" version="1821">
+<theme name="Comm" version="1822">
 	<properties>
-		<templateset><![CDATA[9]]></templateset>
+		<templateset><![CDATA[3]]></templateset>
 		<editortheme><![CDATA[mybb.css]]></editortheme>
 		<imgdir><![CDATA[images]]></imgdir>
 		<logo><![CDATA[images/logo.png]]></logo>
@@ -11,7 +11,7 @@
 		<disporder><![CDATA[a:7:{s:10:"global.css";i:1;s:10:"usercp.css";i:2;s:9:"modcp.css";i:3;s:16:"star_ratings.css";i:4;s:14:"showthread.css";i:5;s:17:"thread_status.css";i:6;s:8:"css3.css";i:7;}]]></disporder>
 	</properties>
 	<stylesheets>
-		<stylesheet name="global.css" version="1821"><![CDATA[body {
+		<stylesheet name="global.css" version="1822"><![CDATA[body {
 	background: #fff;
 	color: #333;
 	line-height: 1.4;
@@ -1965,9 +1965,10 @@ div.jqi .jqisubstate .jqibuttons button{
 
 /** Impromptu End */
 
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="css3.css" version="1821"><![CDATA[tr td.trow1:first-child,
+		<stylesheet name="css3.css" version="1822"><![CDATA[tr td.trow1:first-child,
 tr td.trow2:first-child,
 tr td.trow_shaded:first-child {
 	border-left: 0;
@@ -2114,9 +2115,10 @@ div.error {
     -webkit-border-radius: 6px;
    	border-radius: 6px;
 }
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="usercp.css" attachedto="usercp.php|usercp2.php|private.php" version="1821"><![CDATA[.usercp_nav_item {
+		<stylesheet name="usercp.css" attachedto="usercp.php|usercp2.php|private.php" version="1822"><![CDATA[.usercp_nav_item {
 	display: block;
 	padding: 1px 0 1px 23px;
 	background-image: url(images/usercp_sprite.png);
@@ -2269,9 +2271,10 @@ div.error {
 .new_pm {
 	font-weight: bold;
 }
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="thread_status.css" attachedto="forumdisplay.php|usercp.php|search.php" version="1821"><![CDATA[
+		<stylesheet name="thread_status.css" attachedto="forumdisplay.php|usercp.php|search.php" version="1822"><![CDATA[
 .thread_status {
 	display: inline-block;
 	height: 16px;
@@ -2350,9 +2353,10 @@ div.error {
 }
 
 
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="star_ratings.css" attachedto="forumdisplay.php|showthread.php" version="1821"><![CDATA[
+		<stylesheet name="star_ratings.css" attachedto="forumdisplay.php|showthread.php" version="1822"><![CDATA[
 .star_rating,
 .star_rating li a:hover,
 .star_rating .current_rating {
@@ -2442,9 +2446,60 @@ td .star_rating {
 }
 
 
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="modcp.css" attachedto="modcp.php" version="1821"><![CDATA[
+		<stylesheet name="showthread.css" attachedto="showthread.php" version="1822"><![CDATA[
+ul.thread_tools,
+ul.thread_tools li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul.thread_tools li {
+	padding-left: 24px;
+	padding-bottom: 4px;
+	margin-bottom: 3px;
+	font-size: 11px;
+	background-image: url(images/showthread_sprite.png);
+	background-repeat: no-repeat;
+}
+
+ul.thread_tools li.printable {
+	background-position: 0 0;
+}
+
+ul.thread_tools li.sendthread {
+	background-position: 0 -20px;
+}
+
+ul.thread_tools li.subscription_add {
+	background-position: 0 -40px;
+}
+
+ul.thread_tools li.subscription_remove {
+	background-position: 0 -60px;
+}
+
+ul.thread_tools li.poll {
+	background-position: 0 -80px;
+}
+
+.showthread_spinner {
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	padding: 20px;
+	
+	width: 100%;
+}
+
+
+		
+		]]>
+		</stylesheet>
+		<stylesheet name="modcp.css" attachedto="modcp.php" version="1822"><![CDATA[
 .modcp_nav_item {
 	display: block;
 	padding: 1px 0 1px 23px;
@@ -2544,55 +2599,7 @@ td .star_rating {
 }
 
 
-		]]>
-		</stylesheet>
-		<stylesheet name="showthread.css" attachedto="showthread.php" version="1821"><![CDATA[
-ul.thread_tools,
-ul.thread_tools li {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
-
-ul.thread_tools li {
-	padding-left: 24px;
-	padding-bottom: 4px;
-	margin-bottom: 3px;
-	font-size: 11px;
-	background-image: url(images/showthread_sprite.png);
-	background-repeat: no-repeat;
-}
-
-ul.thread_tools li.printable {
-	background-position: 0 0;
-}
-
-ul.thread_tools li.sendthread {
-	background-position: 0 -20px;
-}
-
-ul.thread_tools li.subscription_add {
-	background-position: 0 -40px;
-}
-
-ul.thread_tools li.subscription_remove {
-	background-position: 0 -60px;
-}
-
-ul.thread_tools li.poll {
-	background-position: 0 -80px;
-}
-
-.showthread_spinner {
-	margin: 0 auto;
-	display: block;
-	text-align: center;
-	padding: 20px;
-	
-	width: 100%;
-}
-
-
+		
 		]]>
 		</stylesheet>
 	</stylesheets>
@@ -2779,7 +2786,7 @@ $(document).ready(function(){
 	var modal_zindex = 9999;
 // -->
 </script>]]></template>
-		<template name="header_quicksearch" version="1815"><![CDATA[						<form action="{$mybb->settings['bburl']}/search.php" method="post">
+		<template name="header_quicksearch" version="1822"><![CDATA[						<form action="{$mybb->settings['bburl']}/search.php">
 						<fieldset id="search">
                          <input name="keywords" type="text" class="textbox" placeholder="Search Forums..." />
                            <input value="" type="submit" class="search_icon" />
