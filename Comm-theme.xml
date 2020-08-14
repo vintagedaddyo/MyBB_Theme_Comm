@@ -460,7 +460,7 @@ a:active {
 	background-position: 0 -30px;
 }
 
-.forum_offlock {
+.forum_offclose {
 	background-position: 0 -60px;
 }
 
@@ -2299,11 +2299,11 @@ div.error {
 	background-position: 0 -20px;
 }
 
-.thread_status.dot_hotlockfolder {
+.thread_status.dot_hotclosefolder {
 	background-position: 0 -40px;
 }
 
-.thread_status.dot_lockfolder {
+.thread_status.dot_closefolder {
 	background-position: 0 -60px;
 }
 
@@ -2315,11 +2315,11 @@ div.error {
 	background-position: 0 -100px;
 }
 
-.thread_status.dot_newhotlockfolder {
+.thread_status.dot_newhotclosefolder {
 	background-position: 0 -120px;
 }
 
-.thread_status.dot_newlockfolder {
+.thread_status.dot_newclosefolder {
 	background-position: 0 -140px;
 }
 
@@ -2331,11 +2331,11 @@ div.error {
 	background-position: 0 -180px;
 }
 
-.thread_status.hotlockfolder {
+.thread_status.hotclosefolder {
 	background-position: 0 -200px;
 }
 
-.thread_status.lockfolder {
+.thread_status.closefolder {
 	background-position: 0 -220px;
 }
 
@@ -2351,11 +2351,11 @@ div.error {
 	background-position: 0 -280px;
 }
 
-.thread_status.newhotlockfolder {
+.thread_status.newhotclosefolder {
 	background-position: 0 -300px;
 }
 
-.thread_status.newlockfolder {
+.thread_status.newclosefolder {
 	background-position: 0 -320px;
 }
 
