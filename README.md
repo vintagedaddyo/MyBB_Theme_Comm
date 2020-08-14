@@ -29,6 +29,8 @@ Comm v1.0
 
 History:
 
+08/14/2020 — Theme updated for 1.8.24
+01/1/2020 — Theme updated for 1.8.22
 07/11/2019 — Theme updated for 1.8.21
 04/05/2019 — Theme updated for 1.8.20
 09/11/2018 — Theme updated for 1.8.19
