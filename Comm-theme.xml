@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<theme name="Comm" version="1824">
+<theme name="Comm" version="1829">
 	<properties>
-		<templateset><![CDATA[11]]></templateset>
+		<templateset><![CDATA[12]]></templateset>
 		<editortheme><![CDATA[mybb.css]]></editortheme>
 		<imgdir><![CDATA[images]]></imgdir>
 		<logo><![CDATA[images/logo.png]]></logo>
@@ -11,7 +11,20 @@
 		<disporder><![CDATA[a:7:{s:10:"global.css";i:1;s:10:"usercp.css";i:2;s:9:"modcp.css";i:3;s:16:"star_ratings.css";i:4;s:14:"showthread.css";i:5;s:17:"thread_status.css";i:6;s:8:"css3.css";i:7;}]]></disporder>
 	</properties>
 	<stylesheets>
-		<stylesheet name="global.css" version="1824"><![CDATA[body {
+		<stylesheet name="global.css" version="1829"><![CDATA[/*
+ * MyBB: Comm Frontend Theme 
+ *
+ * File: global.css
+ * 
+ * Author: Vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ * 
+ */
+
+body {
 	background: #fff;
 	color: #333;
 	line-height: 1.4;
@@ -1971,9 +1984,23 @@ div.jqi .jqisubstate .jqibuttons button{
 
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="css3.css" version="1824"><![CDATA[tr td.trow1:first-child,
+		<stylesheet name="css3.css" version="1829"><![CDATA[/*
+ * MyBB: Comm Frontend Theme 
+ *
+ * File: css3.css
+ * 
+ * Author: Vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ * 
+ */
+
+tr td.trow1:first-child,
 tr td.trow2:first-child,
 tr td.trow_shaded:first-child {
 	border-left: 0;
@@ -2122,9 +2149,23 @@ div.error {
 }
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="usercp.css" attachedto="usercp.php|usercp2.php|private.php" version="1824"><![CDATA[.usercp_nav_item {
+		<stylesheet name="usercp.css" attachedto="usercp.php|usercp2.php|private.php" version="1829"><![CDATA[/*
+ * MyBB: Comm Frontend Theme 
+ *
+ * File: usercp.css
+ * 
+ * Author: Vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ * 
+ */
+
+.usercp_nav_item {
 	display: block;
 	padding: 1px 0 1px 23px;
 	background-image: url(images/usercp_sprite.png);
@@ -2279,9 +2320,22 @@ div.error {
 }
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="thread_status.css" attachedto="forumdisplay.php|usercp.php|search.php" version="1824"><![CDATA[
+		<stylesheet name="thread_status.css" attachedto="forumdisplay.php|usercp.php|search.php" version="1829"><![CDATA[/*
+ * MyBB: Comm Frontend Theme 
+ *
+ * File: thread_status.css
+ * 
+ * Author: Vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ * 
+ */
+
 .thread_status {
 	display: inline-block;
 	height: 16px;
@@ -2362,9 +2416,22 @@ div.error {
 
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="star_ratings.css" attachedto="forumdisplay.php|showthread.php" version="1824"><![CDATA[
+		<stylesheet name="star_ratings.css" attachedto="forumdisplay.php|showthread.php" version="1829"><![CDATA[/*
+ * MyBB: Comm Frontend Theme 
+ *
+ * File: star_rating.css
+ * 
+ * Author: Vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ * 
+ */
+
 .star_rating,
 .star_rating li a:hover,
 .star_rating .current_rating {
@@ -2456,9 +2523,22 @@ td .star_rating {
 
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="showthread.css" attachedto="showthread.php" version="1824"><![CDATA[
+		<stylesheet name="showthread.css" attachedto="showthread.php" version="1829"><![CDATA[/*
+ * MyBB: Comm Frontend Theme 
+ *
+ * File: showthread.css
+ * 
+ * Author: Vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ * 
+ */
+
 ul.thread_tools,
 ul.thread_tools li {
 	list-style: none;
@@ -2507,9 +2587,22 @@ ul.thread_tools li.poll {
 
 		
 		
+		
 		]]>
 		</stylesheet>
-		<stylesheet name="modcp.css" attachedto="modcp.php" version="1824"><![CDATA[
+		<stylesheet name="modcp.css" attachedto="modcp.php" version="1829"><![CDATA[/*
+ * MyBB: Comm Frontend Theme 
+ *
+ * File: modcp.css
+ * 
+ * Author: Vintagedaddyo
+ *
+ * MyBB Version: 1.8
+ *
+ * Theme Version: 1.0
+ * 
+ */
+
 .modcp_nav_item {
 	display: block;
 	padding: 1px 0 1px 23px;
@@ -2609,6 +2702,7 @@ ul.thread_tools li.poll {
 }
 
 
+		
 		
 		
 		]]>
@@ -2730,13 +2824,13 @@ ul.thread_tools li.poll {
 						{$awaitingusers}
                         <navigation>
                             <br />]]></template>
-		<template name="headerinclude" version="1824"><![CDATA[<link rel="alternate" type="application/rss+xml" title="{$lang->latest_threads} (RSS 2.0)" href="{$mybb->settings['bburl']}/syndication.php" />
+		<template name="headerinclude" version="1829"><![CDATA[<link rel="alternate" type="application/rss+xml" title="{$lang->latest_threads} (RSS 2.0)" href="{$mybb->settings['bburl']}/syndication.php" />
 <link rel="alternate" type="application/atom+xml" title="{$lang->latest_threads} (Atom 1.0)" href="{$mybb->settings['bburl']}/syndication.php?type=atom1.0" />
 <meta http-equiv="Content-Type" content="text/html; charset={$charset}" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <script type="text/javascript" src="{$mybb->asset_url}/jscripts/jquery.js?ver=1823"></script>
 <script type="text/javascript" src="{$mybb->asset_url}/jscripts/jquery.plugins.min.js?ver=1821"></script>
-<script type="text/javascript" src="{$mybb->asset_url}/jscripts/general.js?ver=1821"></script>
+<script type="text/javascript" src="{$mybb->asset_url}/jscripts/general.js?ver=1827"></script>
 
 <!-- Add Favicon -->
 <link rel="Shortcut icon" href="{$theme['imgdir']}/favicon.ico" />
@@ -2759,7 +2853,9 @@ $(document).ready(function(){
 <script type="text/javascript">
 <!--
 	lang.unknown_error = "{$lang->unknown_error}";
-
+	lang.confirm_title = "{$lang->confirm_title}";
+	lang.expcol_collapse = "{$lang->expcol_collapse}";
+	lang.expcol_expand = "{$lang->expcol_expand}";
 	lang.select2_match = "{$lang->select2_match}";
 	lang.select2_matches = "{$lang->select2_matches}";
 	lang.select2_nomatches = "{$lang->select2_nomatches}";
